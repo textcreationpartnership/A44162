@@ -1,0 +1,925 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Globe notes. By R. Holland.</title>
+            <author>Holland, R. (Richard), 1596-1677.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 40 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A44162</idno>
+            <idno type="STC">Wing H2432</idno>
+            <idno type="STC">ESTC R220108</idno>
+            <idno type="EEBO-CITATION">99831537</idno>
+            <idno type="PROQUEST">99831537</idno>
+            <idno type="VID">36000</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A44162)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 36000)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1778:33)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Globe notes. By R. Holland.</title>
+                  <author>Holland, R. (Richard), 1596-1677.</author>
+               </titleStmt>
+               <extent>32 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by L. Lichfield, printer to the University, and are to be sold by Ric. Davis,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>1678.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>R. Holland = Richard Holland.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Celestial globes --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2009-05</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:36000:1" rendition="simple:additions"/>
+            <p>GLOBE NOTES By <hi>R. Holland.</hi>
+            </p>
+            <figure>
+               <p>Christus: Lucrism</p>
+               <p>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </p>
+               <p>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </p>
+               <p>ACADEMIA: OXONIENSIS:</p>
+               <p>Ver<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>S.<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Profundo:</p>
+            </figure>
+            <p>OXFORD Printed by <hi>L. LICHFIELD,</hi> Printer to the Univerſity, ⋆and are to be ſold by <hi>RIC. DAVIS,</hi> 1678.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:36000:2"/>
+            <pb n="3" facs="tcp:36000:2"/>
+            <head>NOTES UPON Both Globs Celeſtial and Terreſtial.</head>
+            <div type="celestial_globe">
+               <head>Firſt concerning the Celestial. GLOBE.</head>
+               <p>It is the model of Heaven, but cheifly of the Eight Sphere, wherein three things are to be obſerved in general, <hi>viz.</hi>
+               </p>
+               <list>
+                  <item>1. Definition.</item>
+                  <item>2. Delineations.</item>
+                  <item>3. Uſe.</item>
+               </list>
+               <div type="part">
+                  <p n="1">1. <hi>The Definition.</hi>
+                  </p>
+                  <p>It is a ſphericalbody, having a point or cen<g ref="char:EOLhyphen"/>ter in the middeſt, from whence right lines being extended to the ſuperficies they are all equal.</p>
+                  <pb n="4" facs="tcp:36000:3"/>
+               </div>
+               <div type="part">
+                  <p n="2">2. Delineations.</p>
+                  <p>which are theſe three.</p>
+                  <list>
+                     <item>1. <hi>The Lines or Circles.</hi>
+                     </item>
+                     <item>2. <hi>The principal points.</hi>
+                     </item>
+                     <item>3. <hi>The Figures or Constellations.</hi>
+                     </item>
+                  </list>
+                  <div type="section">
+                     <p n="1">1. FIrſt of the Lines or Circles, every of w<hi rend="sup">ch</hi> are actually or intellectually divided in<g ref="char:EOLhyphen"/>to 360 equal parts called Degrees, the more principle whereof are theſe Ten, which make up the <hi>Sphaera armillaris,</hi> ſix whereof are great Circles, as be all thoſe which divide the Globe into two equal parts, or Hemiſpheres, having the ſame center with the Globe; And the o<g ref="char:EOLhyphen"/>ther Four are called Smaller Circles, becauſe they divide the Globe into two unequal parts or Segments.</p>
+                     <div type="subsection">
+                        <head>The Six great Circles are theſe.</head>
+                        <list>
+                           <item>1. The Horizon is the broad Circle upon the frame, this divideth the Globe into two Hemiſpheres, the one which we ſee, is alwaies above the Horizon, the other which we ſee not, is below: And on the Horizon are drawn divers Circles, <hi>viz.</hi> of the 12 Signes, and of the daies of the Months, and the 32 winds.</item>
+                           <item>2. The Meridian is the Braſs Circle which ſtandeth at right Angles to the Horizon, and in
+<pb n="5" facs="tcp:36000:3"/>which the Globe is hanged and turned about on its Poles, which are the ends or extremitys of the Axis of the World, and upon the Me<g ref="char:EOLhyphen"/>ridian, is another little hour Circle faſtened, with an index moving about upon the Pole.</item>
+                           <item>3. The Equinoctial is drawn upon the Su<g ref="char:EOLhyphen"/>perficies of the Globe, in the middeſt between the Two Poles of the World, and the degrees thereof are numbred with 10, 20, 30, &amp;c. to 360</item>
+                           <item>4. The Eliptick line, this cutteth the Equi<g ref="char:EOLhyphen"/>noctial in two points, and is divided into 12 Signes, each containing 30 degrees, and it paſs<g ref="char:EOLhyphen"/>eth in the middeſt of the Zodiac, for the Zodi<g ref="char:EOLhyphen"/>ac is a broad Cicle containing 16 degrees in breadth, and is the bounder of the 7 Planets.</item>
+                           <item>5. The Equinoctial Colure, this cutteth the Equinoctial at right Angles, in the two points where the Ecliptick paſſeth over the ſame Equi<g ref="char:EOLhyphen"/>noctial line, and ſo paſſeth through the Poles of the World.</item>
+                           <item>6. The Solſtitial Colure, this paſſeth through the Ecliptick where it toucheth both the Tro<g ref="char:EOLhyphen"/>picks, and cutteth both the Equinoctial and E<g ref="char:EOLhyphen"/>cliptick at right Angles, and paſſeth through the Poles of the World, where alſo it cutteth the Equinoctial Colure at right Angles.</item>
+                        </list>
+                     </div>
+                     <div type="subsection">
+                        <head>The Four leſſer Circles are,</head>
+                        <p n="1">1. The Two Tropicks, each being parallel to the Equinoctial, and about 23 degrees, &amp; 31<hi rend="sup">m</hi>
+                           <pb n="6" facs="tcp:36000:4"/>from it. That which is toward the <hi>North</hi> Pole, is called the Tropick of Cancer; That which is towards the <hi>South</hi> Pole, is called the Tropick of Capricorne, and theſe are the bounders of the greateſt Declination of the Sun.</p>
+                        <p n="2">2. The Two Polar Cirles, Theſe are ſo far diſtant from the Poles of the World, as the Tropicks are from the Equinoctial; That which is next to the <hi>North</hi> Pole, is talled the Artick Polar Circle, and that which is next the <hi>South</hi> Pole, is called the Antartick Polar Circle.</p>
+                        <p>There are moreover drawn upon this Globe divers other great Circles paſſing by the begin<g ref="char:EOLhyphen"/>ing of the Twelve Signes, cutting each other in two oppoſite points, and theſe with the Sol<g ref="char:EOLhyphen"/>ſtitial Colure, divide the Globe into 12 equal parts, and theſe are called the Circles of the Longitude of Stars.</p>
+                        <p>Alſo through every point of the Meridian, there are ſmall Circles imagined to be drawn parallel to the Equinoctial, which are called the parallels of Declination of the Sun &amp; Stars.</p>
+                        <p>Alſo the like ſmall Circles are imagined to be drawn parallel to the Horizon, and theſe are called Almicantars, or Circles of Altitude.</p>
+                     </div>
+                  </div>
+                  <div type="section">
+                     <head>The Second thing noted in the Delineati<g ref="char:EOLhyphen"/>on in the Points to be obſerved on the Globe.</head>
+                     <list>
+                        <item>1. THe more principal are theſe, <hi>viz.</hi> The Two points on which the Globe is han<g ref="char:EOLhyphen"/>ged
+<pb n="7" facs="tcp:36000:4"/>and turned about within the Brazen Meri<g ref="char:EOLhyphen"/>dian, theſe repreſent the Poles of the World, from one of which to the other, there paſſeth a ſtreight Line through the Center of the Globe called the Axis of the World: Where Note, that the Two Poles of the World, are the com<g ref="char:EOLhyphen"/>mon Sections of all the Meridian Circles.</item>
+                        <item>2. The Two Poles of the Ecliptick, which are the two points in which the Six Circles of Longitude of Stars do croſs or cut each other, and is near about 23 Degrees 30 Minutes di<g ref="char:EOLhyphen"/>ſtant from the Poles of the World.</item>
+                        <item>3. The Points of Zenith and Nadir, the Ze<g ref="char:EOLhyphen"/>nith is that Point in the Heavens which is di<g ref="char:EOLhyphen"/>rectly over our Head, and the Nadir, is on the contrary, directly under our Feet, theſe two are the Poles of the Horizon, being every where 90 Degrees from it, and in theſe Two Points do all the Vertical or Azimuthal Cir<g ref="char:EOLhyphen"/>cles meet or cut each other.</item>
+                        <item>4. The Points of <hi>Caſt</hi> and <hi>Weſt, viz.</hi> The two points where the Equinoctial cutteth the Horizon; theſe are alſo Diametrically oppo<g ref="char:EOLhyphen"/>ſite, and are the Poles of the Meridian being every where 90 Degrees from it.</item>
+                        <item>5. The Two Equinoctial Points of Aries &amp; Libra, being two points where the Ecliptick cutteth the Equinoctial, and are Diametrically oppoſite, the former is called the Vernal E<g ref="char:EOLhyphen"/>quinoctial,
+<pb n="8" facs="tcp:36000:5"/>becauſe the Sun coming to it, the Spring beginneth; the other is called the Au<g ref="char:EOLhyphen"/>tumnal Equinoctial, becauſe when the Sun commeth to it, the Autumn beginneth.</item>
+                        <item>6. The Two Solſtitial points, being alſo Di<g ref="char:EOLhyphen"/>ametrically oppoſite, are the two points on the Globe where the Ecliptick toucheth the Two Tropicks &amp; the Ecliptick in their touch point, <hi>viz.</hi> in the beginning of Cancer and Capricorn, and theſe Two are called Solſtitial points, be<g ref="char:EOLhyphen"/>cauſe the Sun moving in the Ecliptick, near either of them, which is in <hi>June</hi> and <hi>December,</hi> it cauſeth the daies to ſtand ſtill a while, with<g ref="char:EOLhyphen"/>out a ſenſible lengthning or ſhortning.</item>
+                     </list>
+                     <p>Here is to be Noted, that the Horizon and Meridian Circles are ſaid to be immoveable becauſe they are fixed to the ſame place; but all other Circles of the Sphear are ſaid to by moveable, becauſe they being drawn upon the Surface of the Globe or Sphere, muſt need, move about it in the Diurnal motion, yet other men denominate them by the contrary names.</p>
+                  </div>
+                  <div type="section">
+                     <head>The Third thing obſerved in the Delinea<g ref="char:EOLhyphen"/>tions, are the Figures drawn upon the Globe.</head>
+                     <p>THere have been 48 Aſteriſmes or Con<g ref="char:EOLunhyphen"/>ſtellations obſerved of ancient time, and about them in this Globe are deſcribed cer<g ref="char:EOLunhyphen"/>tain Figures, not becauſe there are any ſuch Fi<g ref="char:EOLunhyphen"/>gure
+<pb n="9" facs="tcp:36000:5"/>in the Heavens, but are only imagined there to give denomination to the Stars of the Firmament, and yet not to all the Stars, for they are innumerable, but only to ſuch as are moſt conſpicuous, and whereof uſe may beſt be made, as occaſion ſerveth.</p>
+                     <p>There are 12 Conſtellations of the Zodiack, through which the Zodiack paſſeth, and theſe give Denomination to the 12 Signs of the Zo<g ref="char:EOLhyphen"/>diack, in particular theſe with their number of Stars.</p>
+                     <p>
+                        <table>
+                           <row>
+                              <cell role="label" cols="2">of old.</cell>
+                              <cell role="label" cols="2">of late.</cell>
+                              <cell role="label" cols="2">of old</cell>
+                              <cell role="label" cols="2">of late.</cell>
+                           </row>
+                           <row>
+                              <cell>♈</cell>
+                              <cell>13</cell>
+                              <cell cols="2">21</cell>
+                              <cell>♎</cell>
+                              <cell>8</cell>
+                              <cell>17</cell>
+                           </row>
+                           <row>
+                              <cell>♉</cell>
+                              <cell>33</cell>
+                              <cell cols="2">43</cell>
+                              <cell>♏</cell>
+                              <cell>21</cell>
+                              <cell>16</cell>
+                           </row>
+                           <row>
+                              <cell>♊</cell>
+                              <cell>18</cell>
+                              <cell cols="2">25</cell>
+                              <cell>♐</cell>
+                              <cell>32</cell>
+                              <cell>14</cell>
+                           </row>
+                           <row>
+                              <cell>♋</cell>
+                              <cell>9</cell>
+                              <cell cols="2">15</cell>
+                              <cell>♑</cell>
+                              <cell>28</cell>
+                              <cell>28</cell>
+                           </row>
+                           <row>
+                              <cell>♌</cell>
+                              <cell>27</cell>
+                              <cell cols="2">40</cell>
+                              <cell>♒</cell>
+                              <cell>42</cell>
+                              <cell>41</cell>
+                           </row>
+                           <row>
+                              <cell>♍</cell>
+                              <cell>26</cell>
+                              <cell cols="2">39</cell>
+                              <cell>♓</cell>
+                              <cell>34</cell>
+                              <cell>36</cell>
+                           </row>
+                        </table>
+                     </p>
+                     <p>There have been 21 Conſtellations obſerved on the <hi>North</hi> ſide of the Ecliptick, which are called the Northern Conſtellations, whoſe names and number of Stars here follow.</p>
+                     <p>
+                        <table>
+                           <row>
+                              <cell> </cell>
+                              <cell role="label">of old.</cell>
+                           </row>
+                           <row>
+                              <cell>The little Bear</cell>
+                              <cell>7</cell>
+                           </row>
+                           <row>
+                              <cell>The great Bear</cell>
+                              <cell>27</cell>
+                           </row>
+                           <row>
+                              <cell>The Dragon</cell>
+                              <cell>31</cell>
+                           </row>
+                           <row>
+                              <cell>Cepheus</cell>
+                              <cell>11</cell>
+                           </row>
+                           <row>
+                              <cell>Bootes</cell>
+                              <cell>22</cell>
+                           </row>
+                           <row>
+                              <cell>The Northern Crown</cell>
+                              <cell>8</cell>
+                           </row>
+                           <pb n="10" facs="tcp:36000:6"/>
+                           <row>
+                              <cell>Hercules</cell>
+                              <cell>9</cell>
+                           </row>
+                           <row>
+                              <cell>The Vulture Cadent</cell>
+                              <cell>10</cell>
+                           </row>
+                           <row>
+                              <cell>The Swan</cell>
+                              <cell>17</cell>
+                           </row>
+                           <row>
+                              <cell>Caſſiopeia</cell>
+                              <cell>13</cell>
+                           </row>
+                           <row>
+                              <cell>Perſeus</cell>
+                              <cell>26</cell>
+                           </row>
+                           <row>
+                              <cell>Auriga</cell>
+                              <cell>14</cell>
+                           </row>
+                           <row>
+                              <cell>Serpentarius</cell>
+                              <cell>24</cell>
+                           </row>
+                           <row>
+                              <cell>The Serpent</cell>
+                              <cell>18</cell>
+                           </row>
+                           <row>
+                              <cell>The Arrow or Dart</cell>
+                              <cell>5</cell>
+                           </row>
+                           <row>
+                              <cell>The Eagle</cell>
+                              <cell>9</cell>
+                           </row>
+                           <row>
+                              <cell>The Dolphin</cell>
+                              <cell>10</cell>
+                           </row>
+                           <row>
+                              <cell>The leſſer Horſe</cell>
+                              <cell>4</cell>
+                           </row>
+                           <row>
+                              <cell>Pegaſus, or great Horſe</cell>
+                              <cell>20</cell>
+                           </row>
+                           <row>
+                              <cell>Andromeda</cell>
+                              <cell>23</cell>
+                           </row>
+                           <row>
+                              <cell>The Northern Triangle</cell>
+                              <cell>4.</cell>
+                           </row>
+                        </table>
+                     </p>
+                     <p>There are 15 Conſtellations on the <hi>South,</hi> ſide of the Eliptick, which are called the Sou<g ref="char:EOLhyphen"/>thern Conſtellations, whoſe names and num<g ref="char:EOLhyphen"/>ber of Stars here follow.</p>
+                     <p>
+                        <table>
+                           <row>
+                              <cell> </cell>
+                              <cell role="label">of old.</cell>
+                           </row>
+                           <row>
+                              <cell>The Whale</cell>
+                              <cell>22</cell>
+                           </row>
+                           <row>
+                              <cell>Orion</cell>
+                              <cell>38</cell>
+                           </row>
+                           <row>
+                              <cell>The River Eridanus</cell>
+                              <cell>34</cell>
+                           </row>
+                           <row>
+                              <cell>The Hare</cell>
+                              <cell>12</cell>
+                           </row>
+                           <row>
+                              <cell>The great Dog</cell>
+                              <cell>18</cell>
+                           </row>
+                           <row>
+                              <cell>The leſſer Dog</cell>
+                              <cell>3</cell>
+                           </row>
+                           <row>
+                              <cell>The Ship</cell>
+                              <cell>45</cell>
+                           </row>
+                           <row>
+                              <cell>The Goblet</cell>
+                              <cell>7</cell>
+                           </row>
+                           <pb n="11" facs="tcp:36000:6"/>
+                           <row>
+                              <cell>The Raven</cell>
+                              <cell>7</cell>
+                           </row>
+                           <row>
+                              <cell>The Centaur</cell>
+                              <cell>37</cell>
+                           </row>
+                           <row>
+                              <cell>The Wolf</cell>
+                              <cell>19</cell>
+                           </row>
+                           <row>
+                              <cell>The Altar</cell>
+                              <cell>7</cell>
+                           </row>
+                           <row>
+                              <cell>The Southern Crown</cell>
+                              <cell>13</cell>
+                           </row>
+                           <row>
+                              <cell>The South-fiſh</cell>
+                              <cell>12.</cell>
+                           </row>
+                        </table>
+                     </p>
+                     <p>Beſides the number of the Stars noted in the former Conſtellations, the Modern Aſtrono<g ref="char:EOLhyphen"/>mers have noted divers others, which were left <hi>informes</hi> by the Ancients, and put them into their proper Figures; as may be ſeen in ſome of the Globes put forth ſince Noble <hi>Ticho Brahe,</hi> namely, <hi>Johannes Janſonius,</hi> his ſmall Globes of the year 1620. And in <hi>Petrus Planti<g ref="char:EOLhyphen"/>us</hi> his Globes of the Year 1625.</p>
+                     <list>
+                        <head>The New Conſtellations in North Latitude, are theſe.</head>
+                        <item>Berenices hair 14</item>
+                        <item>The Bee 4</item>
+                        <item>The River Jordan 21</item>
+                        <item>Camelopardalis 18</item>
+                        <item>The River Euphrates 13.</item>
+                     </list>
+                     <list>
+                        <head>The New Conſtellations in South Latitude, are theſe.</head>
+                        <item>The leſſer Crabb 4</item>
+                        <item>The Unicorne 22.</item>
+                     </list>
+                     <pb n="12" facs="tcp:36000:7"/>
+                     <p>Moreover becauſe the Antient Aſtronomer lived all in North Latitude, they could not ſe<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> the Stars which are near the South Pole, bu<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> they have been ſince diſcovered by ſuch a have travailed that way, and are put into con<g ref="char:EOLunhyphen"/>ſtellations, namely theſe,
+<list>
+                           <item>The Dove 11</item>
+                           <item>The Southern Triangle 5</item>
+                           <item>The <hi>apous Indica</hi> 12</item>
+                           <item>The Peacock 17</item>
+                           <item>The Indian 12</item>
+                           <item>the Crane 13</item>
+                           <item>The Towcan 8</item>
+                           <item>The Hydrus 14</item>
+                           <item>The Phenix 14</item>
+                           <item>The Dorado 6</item>
+                           <item>The Sea Swallow 7</item>
+                           <item>The Camelion 8</item>
+                           <item>The Croſs called <hi>Cruſero</hi> 6</item>
+                           <item>The Flye 4</item>
+                        </list>
+                     </p>
+                     <p>Beſides the Conſtellations before named there are ſome other appearances in the Hea<g ref="char:EOLunhyphen"/>vens, namely, the White broad Circle, calle<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <hi>Via Lactea,</hi> or Milkie way: and two littl<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> clouds obſerved near the South Pole. Thu<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> much of the Delineation, or things noted o<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> the outſide of the Celeſtial Globe.</p>
+                  </div>
+               </div>
+               <pb n="13" facs="tcp:36000:7"/>
+               <div type="part">
+                  <head>The Third thing to be obſerved in General is the uſe of this Globe.</head>
+                  <p>Which conſiſteth in theſe three things follow<g ref="char:EOLhyphen"/>ing. <hi>viz.</hi> The knowlegde of the.</p>
+                  <list>
+                     <item>1. <hi>Motions.</hi>
+                     </item>
+                     <item>2. <hi>Diviſion.</hi> And Operation on the</item>
+                     <item>3. <hi>Propoſitions.</hi>
+                     </item>
+                  </list>
+                  <p>In the firſt place of Motions, which are Two in number, <hi>viz.</hi>
+                  </p>
+                  <list>
+                     <item>1. The <hi>Diurnal</hi> motion.</item>
+                     <item>2. The <hi>Proper</hi> motion.</item>
+                  </list>
+                  <div type="section">
+                     <head>Firſt concerning the Motions.</head>
+                     <p n="1">1. The <hi>Diurnal</hi> motion is made upon the Poles of the World, once about from Eaſt to<g ref="char:EOLhyphen"/>ward the Weſt in 24 hours, and this is alſo called <hi>motus raptus,</hi> or the motion of the <hi>pri<g ref="char:EOLhyphen"/>num mobile.</hi>
+                     </p>
+                     <p n="2">2. The Second motion is called the <hi>annuall motion,</hi> &amp; is made within the <hi>primuu<g ref="char:cmbAbbrStroke">̄</g> mobile</hi> up<g ref="char:EOLhyphen"/>on the Poles of the Ecliptick, according to the ſucceſſion of the ſignes, which is contrary to that of the <hi>primum mobile, viz.</hi> from Weſt
+<pb n="14" facs="tcp:36000:8"/>toward Eaſt, and this motion is called <hi>Motus ſ<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                           <g ref="char:EOLhyphen"/>cundus,</hi> or <hi>Motus proprius,</hi> becauſe that every Sphere hath a motion proper to it ſelf, As tha<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> of the Sun ☉ finiſheth once about <hi>ſecun<g ref="char:EOLhyphen"/>dum ſeriem ſignorum</hi> in the ſpace of 12 months which is called the Solar year, Alſo <hi>Venus,</hi> ♀, and Mercurie ☿, are moved about the ſame way in the ſame time, But the Moon <g ref="char:Moon">☽</g> is mo<g ref="char:EOLhyphen"/>ved about in one Month, and the Month is o<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> two ſorts, for the time wherein the Moon <g ref="char:Moon">☽</g>, departeth from any point of the Zodiack and returneth to it again, is called the Periodi<g ref="char:EOLhyphen"/>call Month, or Month of peragration, But the time wherein the Moon departeth from the Sun ☉, and overtaketh him again is called the Month of Conſecration, or Synodica<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Month.</p>
+                     <p>Mars ♂ moveth through the Zodiack in about two Solar years, and that time is called the year of Mars ♂.</p>
+                     <p>Jupiter ♃ is moved through the Zodiack in about 12 Solar years, and that time is call<g ref="char:EOLhyphen"/>ed the year of Jupiter ♃.</p>
+                     <p>Saturne ♄ in about 30 years runneth through the Zodiack, and that time is called the year of Saturne ♄.</p>
+                     <p n="3">3. The fixed Stars, according to <hi>Ptolomie</hi> move about the Zodiack in 36000 Solar years; But according to the <hi>Alphofines</hi> in 49000
+<pb n="15" facs="tcp:36000:8"/>years; And according to <hi>Capernicus</hi> in 17000 years; But <hi>Gaſſendus</hi> hath it 25000 years; And this time is called the great year, or <hi>Platoni<g ref="char:EOLhyphen"/>cal</hi> year.</p>
+                  </div>
+                  <div type="section">
+                     <head>Secondly concerning the Diviſions.</head>
+                     <p n="1">1. Firſt it is called <hi>Sphera recta,</hi> or a right Sphere, becauſe in ſuch poſition, the Equino<g ref="char:EOLhyphen"/>ctial cutteth the Horizon at right ſpherical angles. The properties of the ſphere is to have the Poles of the world ly in the Horizon, and the Equinoctial paſſeth through the Ze<g ref="char:EOLhyphen"/>nith and Nadir; and in this ſphere not only the Equinoctial, but alſo both the Trophicks, and all other the Equinoctial parallels, are di<g ref="char:EOLhyphen"/>vided into two equal parts by the right Hori<g ref="char:EOLhyphen"/>zon, which cauſeth the daies, and nights, at all times of the yeat to be equal, <hi>viz.</hi> 12 hours long between Sun riſing and ſetting without alteration, to thoſe who live under the Equinoctial line.</p>
+                     <p n="2">2. Secondly it is called <hi>Sphaera obliqua,</hi> whereof there are ſo many in number as there be degrees, minutes, ſeconds, <hi>&amp;c.</hi> in a Qua<g ref="char:EOLhyphen"/>drant, And it is called oblique, becauſe the E<g ref="char:EOLhyphen"/>quinoctial cutteth the Horizon with an oblique angle; The properties of this Sphere is to have one Pole elevated above the horizon, and the other as far depreſſed; Alſo becauſe in this ſphere the Equinoctial is divided equally by
+<pb n="16" facs="tcp:36000:9"/>the Horizon, and the parallels of the Equino<g ref="char:EOLhyphen"/>ctial unequally, therefore the daies, and the nights are equal only twice a year, <hi>viz.</hi> in the beginning of the Spring, and Autumn, at which times the Sun paſſeth over the firſt point of Aries ♈ and Libra ♎, but at all other times of the year, the daies and nights are unequal.</p>
+                     <p n="3">3. It is called <hi>Sphera parallela</hi> or a parallel Sphere, becauſe the Equinoctial being the ſame with the Horizon, all the parallels of the Equi<g ref="char:EOLhyphen"/>noctial are alſo parallels to the Horizon; In this Sphere, one of the Poles of the World is the Zenith, and the other is the Nadir, and in this Sphere the Sun continueth above the Horizon about half a year together, and again as long under the Horizon, whereby the artificial day and night are each about half a year long.</p>
+                  </div>
+                  <div type="section">
+                     <head>Thirdly, now follow the propoſiti<g ref="char:EOLhyphen"/>ons wrought by the Globe.</head>
+                     <p n="1">1. To find the Suns place in the Ecliptick; firſt find the day of the Month, upon the Hori<g ref="char:EOLhyphen"/>zon, and within upon the limb of the Horizon ſtandeth the degree in which the Sun is, this you may apply to the Ecliptick upon the Globe.</p>
+                     <p>
+                        <hi>To find the Suns Declination.</hi>
+                     </p>
+                     <p n="2">2. Firſt find the Suns place in the Ecliptick upon the Globe, and bring it to the brazen Me<g ref="char:EOLhyphen"/>ridian
+<pb n="17" facs="tcp:36000:9"/>and there account how many degrees it is diſtant from the Equinoctial, for the de<g ref="char:EOLhyphen"/>clination of any point in the heavens is its Me<g ref="char:EOLhyphen"/>ridional diſtance from the Equator.</p>
+                     <p>The declination of any Star upon the Globe, is found by bringing it to the brazen Meridian and accounting as before.</p>
+                     <p>
+                        <hi>To find the right Aſcention of the Sun.</hi>
+                     </p>
+                     <p n="3">3. Move the degree of the Ecliptick where<g ref="char:EOLhyphen"/>in the Sun is to the Meridian, and note the de<g ref="char:EOLhyphen"/>gree of the Equinoctial which cometh to the Meridian with it, for the Arch of the Equino<g ref="char:EOLhyphen"/>ctial contained between that point and the firſt point of Aries ♈, is the right aſcention, that is to ſay, it riſeth with it in a right ſphere.</p>
+                     <p>The right aſcention of a Star is to be accoun<g ref="char:EOLhyphen"/>ted as before, if the ſtar be brought to the Me<g ref="char:EOLhyphen"/>ridian.</p>
+                     <p>
+                        <hi>Of the Longitude as it is taken on the Celeſtial Globe.</hi>
+                     </p>
+                     <p n="4">4. The Longitude of the Sun, is that Arch of the Ecliptick which is contained between the firſt point of Aries, and that point of the Ecliptick wherein the Sun ☉ is; But the Lon<g ref="char:EOLhyphen"/>gitude of a Star is that Arch of the Ecliptick which is contained between the firſt point of A<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ies, and the Section of the Ecliptick with a great Circle drawn from the Pole of the Eclip<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ick through the center of the Star, being re<g ref="char:EOLhyphen"/>coned
+<pb n="18" facs="tcp:36000:10"/>according to the ſucceſſion of the ſignes.</p>
+                     <p>
+                        <hi>Which to find.</hi>
+                     </p>
+                     <p>Lay one end of the Quadrant of Altitude upon the Pole of the Ecliptick, and the gradu<g ref="char:EOLhyphen"/>ated edge thereof, upon the Center of the Star, and ſo it ſhall ſhew in the Ecliptick, the ſigne and degree of Longitude.</p>
+                     <p>
+                        <hi>Of the Latitude as it is taken on the Celeſtial Globe.</hi>
+                     </p>
+                     <p n="5">5. It is accounted in a great Circle diſtant from the Ecliptick toward either Pole thereof, therefore the Sun, or any Star being in the E<g ref="char:EOLhyphen"/>cliptick, hath no Latitude, but the Moon <g ref="char:Moon">☽</g>, or any other Planet being not in the Dragons Head ☊, or Dragons Taile ☋, or other Stars being not in the Ecliptick, are ſaid to have Latitude ſo many degrees as they are diſtant from the Ecliptick toward either Pole thereof.</p>
+                     <p>
+                        <hi>Which to find.</hi>
+                     </p>
+                     <p>Lay one end of the Quadrant of Altitude upon the Pole of the Ecliptick, and the gradu<g ref="char:EOLhyphen"/>ated edge thereof upon the Center of the Star, then may you ſee how many degrees thereof are contained between the Star and the Eclip<g ref="char:EOLhyphen"/>tick, and that is the Latitude thereof.</p>
+                     <p>But if you want the Quadrant of Altitude, then take a pair of Compaſſes, and ſetting one point in the Center of the Star, extend the other till in the neareſt diſtance it touches the Eclip<g ref="char:EOLhyphen"/>tick,
+<pb n="19" facs="tcp:36000:10"/>and the Compaſſes ſo opened and applied <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>o the Equinoctial, ſhall ſhew how many de<g ref="char:EOLhyphen"/>grees the Latitude is.</p>
+                     <p>
+                        <hi>Here Note.</hi>
+                     </p>
+                     <p>That the Declination and right Aſcention of <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he Sun and Stars have reſpect to the Equino<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>tial, but their Longitudes and Latitudes have <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eſpect to the Ecliptick.</p>
+                     <p>
+                        <hi>To rectifie the Globe according to the Latitude of your place.</hi>
+                     </p>
+                     <p n="6">6. Elevate the proper Pole ſo far above the Horizon as the Latitude of the place propoſed, <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y moving the Pole of the Globe ſo high by <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he help of the degrees of the Meridian.</p>
+                     <p>
+                        <hi>But to rectifie for the Suns place is.</hi>
+                     </p>
+                     <p n="7">7. After the former rectification, to bring <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he Suns place in the Ecliptick, to the Meri<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ian, turning up the Index of the hour wheel <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> 12 at noon.</p>
+                     <p>
+                        <hi>And to rectifie for the Zenith is,</hi>
+                     </p>
+                     <p n="8">8. After the firſt rectification, to faſten the <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ut or Screw of the Quadrant of Altitude at <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>he Zenith, that is, ſo many degrees from the <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>quinoctial as the Pole is elevated.</p>
+                     <p>
+                        <hi>To find the Amplitude of the Sun or any Star that riſeth and ſetteth.</hi>
+                     </p>
+                     <p n="9">9. The amplitude is the Horizontal diſtance <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> riſing or ſetting from the true points of Eaſt <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nd Weſt, which to find, rectifie the Globe by
+<pb n="20" facs="tcp:36000:11"/>the ſixt Propoſition according to the Latitud<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> and bring the degree of the Sun in the Eclip<g ref="char:EOLunhyphen"/>tick, or Center of the Star to the Horizon, an<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> therein ſee how many degrees it is from th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Eaſt or Weſt.</p>
+                     <p>
+                        <hi>To find what Stars do not ſet in any Latitude.</hi>
+                     </p>
+                     <p n="10">10. By the ſixt Prop. rectify according <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> to the Latitude, and turning about the Glob<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> mark what Stars paſs between the Elevate<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Pole and the Horizon, for thoſe (if the Nor<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Pole be elevated) are contained within th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Artick Circle, and cannot ſet; for the Artic<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Circle as heretofore it hath been taken, <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> drawn upon the North Pole, through th<gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> North point of the Horizon.</p>
+                     <p>
+                        <hi>To find the time when the Sun or any Star Riſeth or Setteth.</hi>
+                     </p>
+                     <p n="11">11. By the ſeaventh Prop. rectifie for th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Suns place, and move the Degree of the Su<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> or center of the Star to the Eaſt or Weſt pa<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> of the Horizon, and then the Index of th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Hour Wheele ſhall ſhew the time.</p>
+                     <p>
+                        <hi>To find how the Conſtellations are ſcituate at any time of the Night.</hi>
+                     </p>
+                     <p n="12">12. By the Seaventh Prop. rectifie for th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Suns place: and move about the Globe till th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> Index come to the Hour deſired, and the<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> hold the Globe to ſhew the preſent ſcituatio<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> of the Conſtellations.</p>
+                     <pb n="21" facs="tcp:36000:11"/>
+                     <p>
+                        <hi>To find the Oblique aſcention of the Sun or any Star that riſeth or ſetteth.</hi>
+                     </p>
+                     <p n="13">13. By the ſixt Prop. rectifie for the Lati<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ude, and bring the degrees of the Sun, or cen<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>er of the Star to the Eaſt part of the horizon, <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nd obſerve the degree of the Equinoctial <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hich riſeth with it, for the arch of the Equi<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>octial contained between the firſt point of A<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>es ♈, and the point of the Equinoctial ſo aſ<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ending is called the oblique aſcention.</p>
+                     <p>
+                        <hi>To find the Aſcentional difference of the Sun</hi> ☉.</p>
+                     <p n="14">14. By the third Prop. find the right aſcen<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>on, and again by the thirteenth prop. find <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>e oblique aſcention thereof, and ſubtract the <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ffer of them from the greater, and the re<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ain is the difference of Aſcention: for the dif<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rence of Aſcention, is only the difference be<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>een the right &amp; oblique Aſcentions: where <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ore that the difference of Aſcention is an <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ch of the Equinoctial, and is alwaies the <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ne of the Suns riſing before 6, and after 6, the <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>e of the year being conſidered.</p>
+                     <p>
+                        <hi>Hereby.</hi>
+                     </p>
+                     <p n="15">15. To get the time of the Suns riſing to a nute of an hour; turn the Aſcentional dif<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ence into time, allowing 15 <hi>gr.</hi> thereof to <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ery hour, and to every degree 4 minutes of <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> hour; And if the Sun be in the Northern <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>gnes, the Aſcentional difference is the time
+<pb n="22" facs="tcp:36000:12"/>of the Suns riſing before 6 a clock, if in th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Southern then after 6 a clock.</p>
+                     <p>
+                        <hi>Again.</hi>
+                     </p>
+                     <p n="16">16. Having the time of the Suns riſing, be<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:EOLunhyphen"/>fore or after 6 a clock, you may get the lengt of the Artificial day (that is, the time of th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Suns continuance above the horizon) If th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Suns declination be North add it to 6, if Sout ſubtract it from 6, and ſo ſhall come forth th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ſemidiurnal arch, this doubled giveth th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> length of the artificial day; But if the lengt<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> of the artificial night be required, then wor<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> contrary to that of the day.</p>
+                     <p>
+                        <hi>To find the time of the day by having the Altitude of the Sun.</hi>
+                     </p>
+                     <p n="17">17 Firſt by a Quadrant or ſome other In<g ref="char:EOLhyphen"/>ſtrument find the Altitude of the Sun abov<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> the Horizon, and then by the 6, 7, and 8, Pro<gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> rectify the Globe for the Latitude, the Su<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> place, and the Zenith, and bring the degree <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> the Ecliptick wherein the Sun is, to agree <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> the ſame Altitude upon the edge of the Qua<g ref="char:EOLunhyphen"/>drant of Altitude, and then the Index of th<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Hour wheele ſhall ſhew the time of the day.</p>
+                     <p>
+                        <hi>To find the Azimuth of the Sun by having his Altitude.</hi>
+                     </p>
+                     <p n="18">18. The Azimuth of the Sun is the diſtan<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> thereof, accounted in the Horizon from Eaſ<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Weſt, or South; by the 6, 7, &amp; 8, Prop. rect
+<pb n="23" facs="tcp:36000:12"/>fie the Globe, and bring the Suns place in the Ecliptick, to agree to the ſame Altitude on the graduated edge of the Quadrant of Altitude, and then the Quadrant of Altitude ſhall ſhew his Azimuth in the Horizon.</p>
+                     <p>
+                        <hi>To find the Azimuth of the Sun at any time of the Day.</hi>
+                     </p>
+                     <p n="19">19. By the 6, and 8 Prop. rectify the Globe, and turn it about till the Index of the Hour wheele, do point to the hour given, then lay the Quadrant of Altitude upon the Suns place in the Ecliptick, and it ſheweth the Azimuth in the Horizon.</p>
+                     <p>
+                        <hi>At any time of the year, to find the time of Day break, or beginning of Crepuſculus (if any be.)</hi>
+                     </p>
+                     <p n="20">20. By the 6, 7, &amp; 8, Prop. rectifie the Globe and Elevate the oppoſite degree of the Sun at the Weſt 18 deg. above the Horizon, and then the Index of the hour wheele ſhall ſhew the time.</p>
+                     <p>
+                        <hi>Having the Altitude of any known Star, to find the hour of the night.</hi>
+                     </p>
+                     <p n="21">21. By the 6, 7, &amp; 8 Prop. rectify the Globe and move about the Globe till the Star hath the given Altitude in the graduated edg of the Quadrant of Altitude, &amp; then ſhall the Index of the hour wheele ſhew the hour required.</p>
+                     <p>
+                        <hi>Having any known Star at the Meridian to find the Hour.</hi>
+                     </p>
+                     <p n="22">22. By the 6, &amp; 7, Prop. rectify the Globe
+<pb n="24" facs="tcp:36000:13"/>and turn the Globe till the ſame Star comes to the Braſen Moridian, ſo ſhall the Index of the hour wheele ſhew the hour.</p>
+                     <p>
+                        <hi>Of the Poetical Riſing and Setting of Stars.</hi>
+                     </p>
+                     <p>COSMICAL.</p>
+                     <p>A Star Riſeth Coſmical when it riſeth with the Sun, &amp; Setteth Coſmical, if it ſet when the Sun riſeth.</p>
+                     <p>
+                        <hi>To find the time of the year when a Star riſeth Coſmical.</hi>
+                     </p>
+                     <p n="23">23. By the 6, Prop. rectiſy, and bring the Star to the Eaſt part of the Horizon, and ob<g ref="char:EOLhyphen"/>ſerve the degree of the Ecliptick which is at the Eaſt part of the Horizon with it, and then find in the Circle of the Horizon what day of the Month anſwereth to the ſame degree of the Ecliptick.</p>
+                     <p>
+                        <hi>To find the time of the year when a Siar Setteth Coſmical.</hi>
+                     </p>
+                     <p n="24">24. By the 6 Prop. rectify and bring the Star to the Weſt part of the Horizon, and Note the degree of the Ecliptick at the Paſt part of the Horizon, and find the day of the Month on the Horizon as before.</p>
+                     <p>ACRONICAL.</p>
+                     <p>A Star Riſeth Acronical, when it riſeth in the Eaſt, and the Sun is. Setting in the Weſt; And it ſetteth Acronical, when it Setteth with the Sun.</p>
+                     <pb n="25" facs="tcp:36000:13"/>
+                     <p>
+                        <hi>To find the time of the year when a Star Riſeth Cronical.</hi>
+                     </p>
+                     <p n="25">25. By the 6 Prop. rectify, and bring the Star to the Eaſt part of the Horizon, and Note the degree of the Ecliptick cut by the Horizon at the Weſt, and find the day of the Moneth an<g ref="char:EOLhyphen"/>ſwering thereunto upon the Horizon as before.</p>
+                     <p>
+                        <hi>To find the time of the year when a Star Setteth Acronical.</hi>
+                     </p>
+                     <p n="26">26. By the 6 Prop. rectify, and bring the Star to the Weſt part of the Horizon, and Note the degree of the Ecliptick cut by the Horizon at the Weſt, and find the day of the Month upon the Horizon as before.</p>
+                     <p>
+                        <hi>Heliacal.</hi>
+                     </p>
+                     <p>Heliacal Riſing of a Star, is the riſing of a Star out of the Sun beams, for then it appeareth before the Sun riſing, though before it could not be ſeen by reaſon of its nearnes to the Sun, being within the Arch of Viſion.</p>
+                     <p>Heliacal Setting is when a Star cometh with<g ref="char:EOLhyphen"/>in the Sun beams, or when a Star is entring into its Arch of Viſion, and then cannot be ſeen ſet<g ref="char:EOLhyphen"/>ting after the Sun by reaſon of its nearneſs to the Sun.</p>
+                     <p>The Arch of Viſion is the Arch of a Vertical Circle contained between the Horizon and the Center of the Sun after it is ſet, or before it ri<g ref="char:EOLhyphen"/>ſeth, this altereth according to the ſeveral mag<g ref="char:EOLhyphen"/>nitudes
+<pb n="26" facs="tcp:36000:14"/>of the Stars, for the greater the Star is, the leſs is the Arch of Viſion, and contrary.</p>
+                     <p>
+                        <hi>The Arches of Viſion belonging to the Stars according to their ſevera Magni<g ref="char:EOLhyphen"/>tudes, are theſe.</hi>
+                     </p>
+                     <list>
+                        <item>To the Firſt 12</item>
+                        <item>Second 13</item>
+                        <item>Third 14</item>
+                        <item>Fourth 15</item>
+                        <item>Fift 16</item>
+                        <item>Sixt 17</item>
+                        <item>Leaſt 18</item>
+                     </list>
+                     <list>
+                        <head>To the Planets.</head>
+                        <item>Venus 5</item>
+                        <item>Mercurie 10</item>
+                        <item>Saturne 11</item>
+                        <item>Jupiter 9</item>
+                        <item>Mars 12 1/<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </item>
+                        <item>Moon uncertain.</item>
+                     </list>
+                     <p>
+                        <hi>To find the time of the year when a Star Riſeth Heliacal.</hi>
+                     </p>
+                     <p n="27">27. By the 6 Prop. rectify, and bring the Star to the Eaſt part of the Horizon, and Note the degree of the Ecliptick elevated above the Weſt part of the Horizon according to the arch of Viſion appertaining to the ſame Star, and then as before, find the of the Month on the Limb of the Horizon, anſwering to the op<g ref="char:EOLhyphen"/>poſite degree of the Ecliptick ſo elevated at Weſt as aforeſaid.</p>
+                     <p>
+                        <hi>To find the time of the year when a Star ſetteth Heliacal.</hi>
+                     </p>
+                     <p n="28">28. By the 6 Prop. rectify and bring the Star to the Weſt part of the Horizon, and Note the degree of the Ecliptick elevated at the Eaſt
+<pb n="27" facs="tcp:36000:14"/>part of the Horizon, according to the Arch of Viſion belonging to the ſame Star, and by the oppoſite of it, find the day of the Month on the Limb of the Horizon as before.</p>
+                  </div>
+               </div>
+            </div>
+            <div type="terrestrial_globe">
+               <head>Deſcription of the Terreſtial GLOBE.</head>
+               <p>IT is a round or ſpherical body, repreſent<g ref="char:EOLhyphen"/>ing the form of the earth and waters.</p>
+               <p>On this Globe are alſo deſcribed the ren circles of the <hi>ſphaera armillaris, viz.</hi> the <hi>Horizon, Meridian, Equator, Ecliptick,</hi> the two Colures with the fouer leſſer circles, <hi>viz.</hi> the two Tropicks, and the two Polar circles.</p>
+               <p>Beſides theſe common circles there are de<g ref="char:EOLhyphen"/>ſcribed upon this Globe divers other circles paſſing through both poles of the World, theſe are called Meridians, or circles of Longitude; Alſo certain oblique circular lines paſſing through the center of certain roſes (ſo called) and theſe are called Rhombs, Courſes, or points of the compaſſe.</p>
+               <p>On this Globe are deſcribed the known parts of the World divided into ſeveral quar<g ref="char:EOLhyphen"/>ters, <hi>Europe, Aſia, Africa,</hi> and <hi>America,</hi> to which is added the unknown land about the
+<pb n="28" facs="tcp:36000:15"/>South Pole called <hi>Magelanica.</hi> And theſe quar<g ref="char:EOLhyphen"/>ters of the World are ſubdivided into ſeveral Kingdoms and Provinces, as may be ſeen in the <hi>Geographers.</hi>
+               </p>
+               <p>The ZONES.</p>
+               <p>This Globe is alſo divided into five Zones, one is called the Torrid or burnt Zone, and this lyeth between the Tropicks, the inhabitants hereof are called <hi>Amphiſcii,</hi> becauſe they have two contrary meridional ſhadows in a year.</p>
+               <p>Two are called temperate, and theſe lye be<g ref="char:EOLhyphen"/>tween the Tropicks and the Polar circles; The inhabitants hereof are called <hi>Hetereſcii,</hi> be<g ref="char:EOLhyphen"/>cauſe they have their Meridional ſhadow one way all the year.</p>
+               <p>The two frigid Zones, are comprehended within the Polar circles; The inhabitants whereof are called <hi>Periſcii</hi> becauſe their ſha<g ref="char:EOLhyphen"/>dow at ſome time of the year goeth round about them.</p>
+               <p>
+                  <hi>The Inhabitants of the Terreſtial Globe, do alſo receive other names relating to their poſitions each to others.</hi>
+               </p>
+               <p>The <hi>Antipodes</hi> are ſuch as dwell diametri<g ref="char:EOLhyphen"/>cally oppoſite each to other, &amp; have all things countrary, as ſeaſons of the year, and times of the day.</p>
+               <p>The <hi>Antoeſi</hi> are ſuch as dwell ſo far remote from the Equinoctial on one ſide, as the other
+<pb n="29" facs="tcp:36000:15"/>dwelleth on the other ſide, both under the ſame Meridian.</p>
+               <p>Theſe have ſome things common, and ſome things proper, the common, as to have their noon tides together: Proper as that the win<g ref="char:EOLhyphen"/>ter of the one, is the others Summer time, and the longeſt day of the one, is the ſhorteſt of the other.</p>
+               <p>The <hi>Periaeſi</hi> are ſuch as live in the ſame pa<g ref="char:EOLhyphen"/>rallel of Latitude toward the ſame Pole, and are directly oppoſite each to other, both ha<g ref="char:EOLhyphen"/>ving the ſame meridian, Theſe have their Summers, Winters, and increaſe, and ſhortning of daies and nights together, but the night of the one is the day of the other.</p>
+               <p>
+                  <hi>Parallels of the Longeſt day.</hi>
+               </p>
+               <p>Beſides the parallels of Latitude formerly mentioned, there are other parallels imagi<g ref="char:EOLhyphen"/>ned to be drawn upon this Globe, which are called parallels of the longeſt day: The firſt of them is to be drawn at that diſtance from the Equinoctial, where the longeſt day of the year is 12¼ hours long: The ſecond where the longeſt day of the year is 12½ hours long: The third where the longeſt day of the year is 13¾ hours long, &amp;c. through places increa<g ref="char:EOLhyphen"/>ſing their longeſt day by ¼ of an hour, till you come to the parallel where the longeſt day of the year is 24 hours long, which is under
+<pb n="30" facs="tcp:36000:16"/>in the Longitude of the ſame place; for the Longitude is but the remotion of a place from the firſt meridian which paſſeth through the Azores accounting Eaſtwardly.</p>
+               <p>
+                  <hi>To find the diſtance between two places</hi>
+               </p>
+               <p>Put the center of the quadrant of altitude up<g ref="char:EOLhyphen"/>on on one of the places, and the graduared edge upon the other, &amp; the degrees interjacent ſhall ſhew their diſtance in degrees, and theſe may be turned into miles by multiplying by 60.</p>
+               <p>
+                  <hi>To find how one place beareth or lyeth fro<g ref="char:cmbAbbrStroke">̄</g> another.</hi>
+               </p>
+               <p>Elevate the pole according to the Latitude of the place where you are, and faſten the qua<g ref="char:EOLhyphen"/>drant of altitude at the Zenith, then bring the place where you are to the Zenith, and move the graduated edge of the quadrant of altitude to the other place, and then the end of the quadrant of altitude ſhall fall upon the Hori<g ref="char:EOLhyphen"/>zon in the point of bearing.</p>
+               <p>
+                  <hi>To find what hour of the day or night it is at any place on the Terreſtial Globe.</hi>
+               </p>
+               <p>Bring the place where you are to the Meri<g ref="char:EOLhyphen"/>dian, and turn the Index of the hour wheel to the hour it is with you at preſent, then turn the other place to the Braſen Meridian, and the Index of the hour wheel will ſhew the hour deſired.</p>
+               <p>
+                  <hi>To find by the Terreſtial Globe the quantity of the longeſt day at any place aſſigned.</hi>
+               </p>
+               <p>Elevate the Pole of the Globe according to
+<pb n="31" facs="tcp:36000:16"/>the polar circles; theſe being drawn each way from the Equinoctial towards each pole, divide the Globe into unequal parts or ſpaces, for though they be equal in time, yet they agree not in equal diſtance of place, but are greater or broader neer to the Equinoctial, and are narrower the farther they are from it.</p>
+               <p>
+                  <hi>CLIMATS.</hi>
+               </p>
+               <p>A Climate containeth two of the parallels of the longeſt day, and altereth the longeſt day by the ſpace of half an hour, beginning at the Equinoctial, and are in all 24, which end under the polar circles; but the Antients for want of knowledge of the parts under the Equinoctial made at firſt but ſeven Climates, and called them by names, but afterwards were added two more, which made up their number to be nine. And theſe of the Antients began to be account<g ref="char:EOLhyphen"/>ed at 12 and 15 from the Equator.</p>
+               <p>
+                  <hi>Propoſitions on the Terrestial</hi> GLOBE.</p>
+               <p>
+                  <hi>To find the Latitude of any place ſet thereon.</hi>
+               </p>
+               <p>Bring the place to the brazen meridian, and therein account how many degrees are betwixt the Equinoctial and the place, for that is the Latitude you ſeek; for the Latitude is but the re<g ref="char:EOLhyphen"/>motion of the Zenith of a place fro<g ref="char:cmbAbbrStroke">̄</g> the equator.</p>
+               <p>
+                  <hi>To find the Longitude of a place ſet thereon.</hi>
+               </p>
+               <p>Bring the place under the brazen meridian, and then the meridian ſhall cut the Equinoctial
+<pb n="32" facs="tcp:36000:17"/>the Latitude of the place given, and bring the Solſtitial point of Cancer (if the North Pole be Elevated) to the Meridian, and turn the Index of the hour wheel to 12 at noon, then if you put the Solſtitial point of Cancer to the Weſt part of the Horizon, the Index on the hour Wheel ſheweth the time of Sun ſetting there, and that is alſo the Semidiurnal Arch, &amp; being doubled giveth the length of the day, if it ex<g ref="char:EOLhyphen"/>ceed not 24 hours, which end under the Polar Circle.</p>
+               <p>But if the place aſligned be within the Polar Circle, then elevate the Pole of the Globe ac<g ref="char:EOLhyphen"/>cording to the Latitude of the Place, &amp; turn the Globe till ſome point of the Vernal Signes in the Ecliptick touch the North point of the Ho<g ref="char:EOLhyphen"/>rizon and note how many degrees of the Eclip tick are from the Solſtitial point of Cancer, for that number doubled giveth neerly the length of the day in our common dayes, and theſe days may be turned into weekes and moneths &amp;c.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="advert_for_mathematical_instruments">
+            <p>All Mathematical Inſtruments are Made and Sold by <hi>John Prujean</hi> living near New Col<g ref="char:EOLhyphen"/>ledge in <hi>Oxford.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
